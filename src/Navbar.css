@@ -1,0 +1,64 @@
+.list_main {
+    height: 40px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(180, 180, 138);
+  }
+  
+li {
+display: inline;
+width:100%;
+font-size: 20px;
+font-weight: 800;
+letter-spacing: 1px;
+color: #000;
+padding: 8px 16px;
+align-items: center;
+text-decoration: none;
+border-radius: 2px;
+}
+
+
+ul {
+border: 1px solid #555;
+}
+
+li {
+text-align: center;
+border: 1px solid #555;
+}
+.home{
+color: blue;
+}
+
+.trending{
+    color: coral;
+}
+
+.cloth{
+    color: green;
+}
+
+.grocery{
+    color: hotpink;
+}
+
+.books{
+    color:turquoise ;
+}
+
+.electronics{
+    color: red;
+}
+
+.mobile{
+    color: rgb(129, 9, 129);
+}
+
+.home_appliances{
+    color:rgb(46, 184, 76)  ;
+}
+.furniture{
+    color: olive;
+}

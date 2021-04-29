@@ -1,0 +1,151 @@
+.cart-container{
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+.cart-details{
+    width: 75%;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px 20px;
+}
+
+.cart-image{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+}
+
+.cart-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.cart-product-name{
+    display: inline-block;
+    width: 150px;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cart-product-price{
+    display: inline-block;
+    width: 120px;
+    color: orange;
+    padding: 0 15px ;
+    text-align: center;
+    font-weight: bold;
+}
+
+.inc{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #222;
+    border-radius: 50%;
+    color:green;
+    cursor: pointer;
+    margin: 15px 0;
+}
+.product-quantity {
+    display: inline-block;
+    padding: 14 15px;
+    color: rgb(109, 88, 50);
+    font-size: 20px;
+    font-weight: 600;
+    width: 70px;
+    text-align: center;
+  }
+
+  .dec{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #222;
+    border-radius: 50%;
+    color: red;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.product-total-price{
+    display: inline-block;
+    width: 150px;
+    color: orange;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.delete-product{
+    border: none;
+    box-shadow: 2px 2px 2px 2px #888888;
+    color: rgb(194, 9, 9);
+    cursor: pointer;
+}
+
+.cart-summary {
+    width: 25%;
+    padding: 0 0 0 20px;
+    margin-top: 200px;
+    background-color: cornflowerblue;
+    color: darkmagenta;
+    border: 1px solid black;
+  }
+  
+  .summary {
+    background: #fff;
+    padding: 13px;
+  }
+  
+  .summary h3 {
+    font-size: 18px;
+    font-weight: normal;
+    border-bottom: 1px solid #999;
+    padding-bottom: 7px;
+  }
+  .total-items {
+    display: flex;
+    margin: 15px 0;
+  }
+  .items {
+    width: 50%;
+    text-align: left;
+    font-weight: normal;
+  }
+  .items-count {
+    width: 50%;
+    text-align: right;
+    font-weight: bold;
+    color: #f57224;
+  }
+  .total-price-section{
+    display: flex;
+    margin: 15px 0;
+  }
+  .total-price {
+    width: 50%;
+    text-align: left;
+    font-weight: normal;
+  }
+  .price {
+    font-weight: bold;
+    width: 50%;
+    text-align: right;
+    color: #f57224;
+  }
